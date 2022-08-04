@@ -1,0 +1,133 @@
+body{
+    background:#40E0D0;
+    font-family: sans-serif;
+    font-size: 15pt;
+
+}
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 490px;
+    height: 400px;
+    
+}
+.content{
+    width: 460px;
+    height: 100px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+}
+div{
+   display: inline-block;
+   margin-top: 30px;
+}
+
+.url{
+    width: 250px;
+    padding: 9px;
+    border: 1px solid transparent;
+    outline: none;
+    background: #111;
+    margin-top: 0;
+    color: #fff;
+    
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+   text-decoration: line-through;
+}
+.url:focus{
+    width: 300px;
+
+}
+.bxs-right-arrow{
+    background: red;
+    
+}
+.btn{
+    padding: 9px;
+    background: #111;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius:0 10px 10px 0;
+}
+.res{
+    text-align: center;
+    width: 400px;
+    margin-left: 50px;
+}
+@media (max-width:320px){
+    .content{
+        width: 310px;
+        margin-left: 60px;
+    }
+    .container{
+       text-align: center;
+    }
+    .url{
+        width: 150px;
+    }
+    .url:focus{
+        width: 180px;
+    }
+    .bxs-right-arrow{
+        opacity: 0;
+    }
+    .res{
+        margin-left: 40px;
+        font-size: 10pt;
+    }
+}
+@media (max-width:375px){
+    .content{
+        width: 340px;
+        margin-left: 20px;
+    }
+    .container{
+        text-align: center;
+    }
+    .url{
+        width: 200px;
+    } 
+    .url:focus{
+        width: 210px;
+    }
+    .bxs-right-arrow{
+        opacity: 0;
+    }
+    .res{
+        margin-left: 20px;
+        font-size: 12pt;
+    }
+}
+@media (max-width:425px){
+    .content{
+        width: 360px;
+        margin-right: 190px;
+    
+    }
+    .container{
+        text-align: center;
+        width: 410px;
+    }
+    .url{
+        width: 210px;
+    } 
+    .url:focus{
+        width: 230px;
+    }
+    .bxs-right-arrow{
+        opacity: 0;
+    }
+    .res{
+        margin-left: 3.4px;
+        font-size: 12pt;
+    }
+}
