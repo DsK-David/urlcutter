@@ -1,5 +1,5 @@
 body{
-    background:#40E0D0;
+    background:#395351;
     font-family: sans-serif;
     font-size: 15pt;
 
@@ -10,29 +10,22 @@ body{
     transform: translate(-50%,-50%);
     position: absolute;
     width: 490px;
-    height: 400px;
+    height: 100%;
     
-}
-.content{
-    width: 460px;
-    height: 100px;
-    background: white;
-    text-align: center;
-    border-radius: 10px;
 }
 div{
    display: inline-block;
    margin-top: 30px;
 }
 
-.url{
-    width: 250px;
+.input_url{
+    width: 300px;
     padding: 9px;
-    border: 1px solid transparent;
+    border: 1px solid #fff;
     outline: none;
-    background: #111;
+    background: #fff;
     margin-top: 0;
-    color: #fff;
+    color: #111;
     
 }
 h1{
@@ -40,17 +33,13 @@ h1{
     text-transform: uppercase;
    text-decoration: line-through;
 }
-.url:focus{
-    width: 300px;
-
-}
 .bxs-right-arrow{
     background: red;
     
 }
 .btn{
-    padding: 9px;
-    background: #111;
+    padding: 10px;
+    background: rgb(53, 120, 151);
     color: #fff;
     margin-right: 10px;
     display: inline-block;
@@ -71,8 +60,8 @@ h1{
     .container{
        text-align: center;
     }
-    .url{
-        width: 150px;
+    .input_url{
+        width: 110px;
     }
     .url:focus{
         width: 180px;
@@ -86,14 +75,10 @@ h1{
     }
 }
 @media (max-width:375px){
-    .content{
-        width: 340px;
-        margin-left: 20px;
-    }
     .container{
         text-align: center;
     }
-    .url{
+    .input_url{
         width: 200px;
     } 
     .url:focus{
@@ -108,21 +93,13 @@ h1{
     }
 }
 @media (max-width:425px){
-    .content{
-        width: 360px;
-        margin-right: 190px;
-    
-    }
     .container{
         text-align: center;
         width: 410px;
     }
-    .url{
+    .input_url{
         width: 210px;
     } 
-    .url:focus{
-        width: 230px;
-    }
     .bxs-right-arrow{
         opacity: 0;
     }
